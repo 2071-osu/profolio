@@ -123,15 +123,6 @@ Below is further rationale/explanation for the rubric items above:
 4. Demonstrable Complexity: While the implementation uses a Map<DayOfWeek, Map<String, String>>,
 it can effectively proves that the component can handle nested data structures, ensuring that the transition to a formal kernel/enhanced interface hierarchy is technically feasible.
 
-Once you've argued your choice of design, make a branch in your new repo called
-something like proof-of-concept. There are many ways to do this, but my
-preference is to use GitHub Desktop. From there, you can click the Branch
-tab, select New branch, and name your new branch. Alternatively, VSCode has
-its own GUI for git. You can also make use of the command line directly in
-VSCode to run git commands. It's entirely up to you. Regardless of your choice,
-we'll want a branch that you can later make a pull request from with all
-your changes.
-
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
 > preference is to use GitHub Desktop. From there, you can click the `Branch`
