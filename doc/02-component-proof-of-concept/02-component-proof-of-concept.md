@@ -120,7 +120,8 @@ Below is further rationale/explanation for the rubric items above:
 
 3. Client-View Clarity: The logic of mapping a DayOfWeek to specific workout data is intuitive for a client, making it a perfect candidate for the OSU component discipline.
 
-4. Demonstrable Complexity: While the implementation uses a Map<DayOfWeek, Map<String, String>>, it effectively proves that the component can handle nested data structures, ensuring that the transition to a formal kernel/enhanced interface hierarchy is technically feasible.
+4. Demonstrable Complexity: While the implementation uses a Map<DayOfWeek, Map<String, String>>,
+it can effectively proves that the component can handle nested data structures, ensuring that the transition to a formal kernel/enhanced interface hierarchy is technically feasible.
 
 Once you've argued your choice of design, make a branch in your new repo called
 something like proof-of-concept. There are many ways to do this, but my
