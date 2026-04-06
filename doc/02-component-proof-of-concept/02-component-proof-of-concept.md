@@ -30,7 +30,6 @@ the more work you can put in now, the better.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -114,8 +113,15 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-<!-- TODO: briefly argue your choice of design or design something
-new; then delete this comment -->
+
+1. I have selected the "Weekly Routine" component for this proof-of-concept for several reasons:
+
+2. Personal Interest and Feasibility: I wanted to create a tool that is genuinely useful for managing fitness and sports schedules. This design is focused enough to be achievable within the semester's time constraints while offering clear expansion potential.
+
+3. Client-View Clarity: The logic of mapping a DayOfWeek to specific workout data is intuitive for a client, making it a perfect candidate for the OSU component discipline.
+
+4. Demonstrable Complexity: While the implementation uses a Map<DayOfWeek, Map<String, String>>,
+it can effectively proves that the component can handle nested data structures, ensuring that the transition to a formal kernel/enhanced interface hierarchy is technically feasible.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
